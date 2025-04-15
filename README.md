@@ -1,17 +1,17 @@
 ## Music Player App Development Plan (Flutter + Go)
 
-This document outlines a comprehensive development plan for a music player application using Flutter for the frontend and Go for the backend. It includes project structure, recommended libraries, user roles, feature breakdowns with frontend and backend components, and a simplified database schema.
+This document outlines a comprehensive development plan for a music player application using Flutter for the frontend and Go for the backend. It includes project structure, considered libraries, user roles, feature breakdowns with frontend and backend components, and a simplified database schema.
 
 ---
 
-### 1. Recommended Project Structure
+### 1.  Project Structure
 
-A well-organized project structure enhances maintainability, especially for solo developers.
+A well-organized project structure enhances maintainability.
 
 #### Flutter (Frontend)
 
 ```
-music_app_flutter/
+frontend/
 ├── android/                  # Android-specific files
 ├── ios/                      # iOS-specific files
 ├── lib/
@@ -57,7 +57,7 @@ music_app_flutter/
 #### Go (Backend)
 
 ```
-music_app_go/
+backend/
 ├── cmd/
 │   └── api/
 │       └── main.go           # Server entry point
@@ -81,7 +81,7 @@ music_app_go/
 
 ---
 
-### 2. Recommended Libraries/Packages
+### 2. Considered Libraries/Packages
 
 #### Flutter
 
@@ -358,4 +358,4 @@ Roles are assigned during authentication and enforced via backend middleware.
 
 ---
 
-Start with authentication and playback, then expand iteratively. Good luck!
+Starting with authentication and playback, then will expanded iteratively. **So project is on progress**
